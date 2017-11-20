@@ -1,0 +1,247 @@
+/*头部*/
+.top{
+    width:100%;
+    height:35px;
+    background: #eeeeee;
+}
+.top .container{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.top .container span{
+    font-size: 12px;
+    color: #000;
+    line-height: 35px;
+    float: left;
+    margin-left:100px;
+}
+.top .tel{
+    float:right;
+}
+.top .tel img{
+    float: left;
+    margin:6px 5px 0 0;
+}
+.top .tel p{
+    font-size:12px;
+    color: #000;
+    line-height: 35px;
+    float:left;
+    margin-right:48px;
+}
+.top .tel a{
+    width:70px;
+    height:20px;
+    border: 1px solid #000;
+    color: #000;
+    text-align: center;
+    line-height: 20px;
+    display: block;
+    font-size: 12px;
+    float: right;
+    margin:6px 32px 0 0;
+}
+/*logo导航*/
+.nav{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    margin:22px 104px 0 180px;
+}
+.logo{
+    display: block;
+}
+.nav ul{
+    width:800px;
+    float:left;
+    margin: 56px 0 50px 0;
+}
+.nav ul li{
+    background: #fff;
+    float: left;
+    margin-right:20px;
+    line-height: 20px;
+}
+
+.nav ul .current{
+    background: url("../img/nav.png") no-repeat left center;
+}
+.nav ul .current a{
+    color: #FF80CB;
+}
+.nav ul li:hover{
+    background: url("../img/nav.png") no-repeat left center;
+}
+.nav ul li:hover a{
+    color: #FF80CB;
+}
+.nav ul li a{
+    display: block;
+    float: left;
+    color: #000;
+    font-size:14px;
+    padding-left: 38px;
+
+}
+/*轮播*/
+.banner{
+    width:100%;
+    height:600px;
+    position: relative;
+    overflow: hidden;
+}
+.banner_img{
+    width:100%;
+    height:100%;
+}
+.banner_img li{
+    width:100%;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.banner_img .on{
+    z-index: 99;
+}
+.banner a{
+    width: 100%;
+    height:100%;
+    display: block;
+}
+.banner li a img{
+    position: relative;
+    left:50%;  top:0;
+    margin-left: -960px;
+}
+.banner_btn{
+    width: 95px;
+    height: 14px;
+    position: absolute;
+    left:50%;bottom: 40px;
+    margin-left: -34px;
+    z-index: 100;
+}
+.banner_btn li{
+    width: 16px;
+    height: 14px;
+    float: left;
+    margin-right: 15px;
+    background: url("../img/banner_btn_01.png") no-repeat center;
+    cursor: pointer;
+}
+.banner_btn .current{
+    background: url("../img/banner_btn_02.png") no-repeat center;
+}
+/*尾部*/
+.footer{
+    width:100%;
+    background: #AAAAAA;
+}
+.footer .container{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.footer .left{
+    width:692px;
+    height:26px;
+    float: left;
+    margin:32px 10px 30px 138px ;
+}
+.footer .left li{
+    float: left;
+    line-height: 26px;
+    margin-right:45px;
+}
+.footer .left li img{
+    float: left;
+    margin-right: 2px;
+}
+.footer .left li span{
+    font-size:12px;
+    color: #6D6D6D;
+    float: left;
+}
+.footer .left .on img{
+    margin-top: 3px;
+}
+.footer .left .current img{
+    margin-top: 3px;
+}
+.footer .right{
+    width:140px;
+    height:20px;
+    float: left;
+    margin:32px 0 0 8px ;
+}
+.footer .right li{
+    float: left;
+    line-height: 20px;
+    color: #6D6D6D;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.footer .right a{
+    display: block;
+}
+.footer p{
+    width:528px;
+    height:18px;
+    font-size: 14px;
+    color: #6D6D6D;
+    margin:0 auto;
+    letter-spacing: 1px;
+    clear:both;
+    margin-bottom: 32px;
+}
+
+.sidebar{
+    width:1200px;
+    margin:0 auto;
+    padding-left:20px;
+    margin-top:60px;
+}
+.sidebar ul{
+    width:600px;
+    margin:0 auto;
+    overflow: hidden;
+}
+.sidebar ul li{
+    float:left;
+    border:1px solid white;
+    border-radius:3px;
+    margin-left:26px;
+}
+.sidebar ul .on{
+    margin-left:0;
+    border:1px solid #FF80CB;
+}
+.sidebar ul li a{
+    padding:0 12px;
+    line-height:32px;
+    display: block;
+    height:100%;
+    color:#666666;
+    float: left;
+}
+.sidebar ul li a span{
+    margin-left:10px;
+    margin-top:12px;
+    width:16px;height:12px;
+    display: block;
+    float:right;
+}
+.sidebar ul .on a span{
+    background:url("../img/sidebar_07.png") no-repeat center
+}
+.sidebar ul li:hover{
+    border:1px solid #FF80CB;
+}
+.sidebar ul li:hover span{
+    background:url("../img/sidebar_07.png") no-repeat center;
+}
