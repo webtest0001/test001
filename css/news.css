@@ -1,0 +1,142 @@
+*{
+    list-style:none;
+    outline:none;
+    margin:0;
+    padding:0;
+    text-decoration:none;
+    font-family:微软雅黑;
+}
+.banner img{
+    position: absolute;
+    left:0;top:0;
+    margin-left:-160px;
+}
+.content{
+    width:100%;
+    padding-top:58px;
+    padding-bottom:70px;
+}
+.container{
+    width:1200px;
+    margin:0 auto;
+}
+.content .title{
+    width:100%;
+    height:90px;
+    background:url("../img/news_title.png") no-repeat center;
+    background-position:bottom;
+}
+.container .title h5{
+    text-align:center;
+    font-size:26px;
+    font-weight:normal;
+}
+.container .title h4{
+    text-align:center;
+    color:#6A6A6A;
+    font-weight:normal;
+    font-size:22px;
+}
+.container .title h4 span{
+    font-size:28px;color:#FF77C8;
+    font-weight:normal;
+}
+.news_list{
+    width:1100px;
+    margin:0 auto;
+    margin-top:76px;
+}
+.news_list li{
+    overflow:hidden;
+    border-bottom:1px solid #CCCCCC;
+    margin-top:36px;
+}
+.news_list li .date{
+    width:130px;height:90px;
+    float:left;
+    text-align:center;
+    margin-top:30px;
+    /*margin-left:40px;*/
+    color:#999999;
+}
+.news_list li .date h1{
+    float:left;
+    font-size:62px;
+    font-weight:normal;
+}
+.news_list li .date h3{
+    float:right;
+    font-size:28px;
+    margin-top:10px;
+    margin-right:10px;
+    font-weight:normal;
+}
+.news_list li .date h6{
+    float:right;font-size:16px;
+    font-weight:normal;
+}
+.news_list li:hover .date{
+    color:#FC84CC;
+}
+.news_list li .text{
+    width:950px;
+    float:right;
+    margin-bottom:16px;
+    text-align:justify;
+}
+.news_list li .text h2{
+    font-weight:normal;
+}
+.news_list li .text h2 a{
+     font-size:16px;
+    color:#767676;
+}
+.news_list li:hover .text h2 a{
+    color:#FC84CC;
+}
+.news_list li .text p{
+    margin-top:18px;
+    color:#767676;
+}
+/*page*/
+.page{
+    width:382px;
+    height:32px;
+    margin:0 auto;
+    padding-top:4px;
+    margin-top:80px;
+}
+.page li{
+    height:24px;
+    font-size:16px; color:#6C6C6C;
+    line-height:24px;
+    padding:0 8px;
+    border:1px solid #FF81CB;
+    float:left;
+    margin-top:3px;
+    margin-right:4px;
+    cursor:pointer;
+}
+.page .prev,.page .next{
+    height:30px;
+    line-height:30px;
+    margin:0;
+    padding:0 10px;
+}
+.page .prev{
+    margin-right:28px;
+}
+.page .next{
+    margin-left:24px;
+}
+.page .on{
+    background:#FF81CB;
+    color:#fff;
+}
+.page li:hover{
+    background:#FF81CB;
+    color:#fff;
+}
+.sidebar ul{
+    padding-left:120px;
+}
