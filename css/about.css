@@ -1,0 +1,96 @@
+*{
+    margin: 0;padding: 0;
+    border: 0;list-style: none;
+    font-family: "微软雅黑";
+    text-decoration: none;outline: none;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 42px;
+}
+.title h1{
+    height: 34px;
+    font-size: 30px;
+    color: #333333;
+    text-align: center;
+    font-weight: normal;
+ }
+.title_word{
+    width: 185px;height: 57px;
+    margin: 0 auto;
+    background: url("../img/about_us_01.png");
+}
+.title h3{
+    font-size: 22px;
+    color: #333333;
+    margin-left: 37px;
+    margin-top: 6px;
+    float: left;
+    font-weight: normal;
+}
+.title h4{
+    font-size: 28px;
+    color: #FF80CB;
+    float: left;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.main{
+    width: 1125px;
+    margin-top: 54px;
+    margin-left: 95px;
+}
+.main h1{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 23px 0;
+    color: #333333;
+}
+.profile{
+    font-size: 14px;
+    font-family: "宋体";
+    color: #050505;
+    margin-top: 22px;
+    text-indent: 2em;
+    letter-spacing:2px;
+    line-height: 26px;
+    text-align: justify;
+}
+.main img{
+    margin-top: 63px;
+}
+.left_img{
+    margin-right: 90px;
+}
+.main h2{
+    font-size: 16px;
+    font-weight: normal;
+    color: #333333;
+    padding: 15px 0;
+    margin-top: 17px;
+}
+.idea{
+    font-size: 14px;
+    color: #333333;
+    text-indent: 2em;
+}
+.area{
+    font-size: 14px;
+    font-family: "宋体";
+    color: #050505;
+    text-indent: 4em;
+    letter-spacing:2px;
+    line-height: 26px;
+    margin-top: 12px;
+    margin-bottom: 77px;
+}
+
+
+
+
+
+
+
+
