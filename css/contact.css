@@ -1,0 +1,166 @@
+*{
+    list-style: none;
+    font-family: "微软雅黑";
+    margin: 0;padding: 0;
+    outline: none;
+    text-decoration: none;
+    border: none;
+}
+.content{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 42px;
+    padding-bottom:90px;
+}
+.banner img{
+    display:block;
+    position:absolute;
+    left:-260px;top:0;
+}
+.content .title{
+    width:216px;
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+.content .title h3{
+    font-weight:normal;
+    font-size:30px;
+    color:#333333;
+    padding-left: 16px;
+    margin-bottom: 2px;
+}
+.content .title h4{
+    width: 188px;height: 48px;
+    font-weight: normal;
+    font-size: 22px;
+    color:#666666;
+    background: url("../img/pro_details01.png") no-repeat center;
+    text-align: center;
+    line-height: 22px;
+}
+.content .title h4 span{
+    font-size: 28px;
+    color: #ff80cb;
+    line-height:28px;
+}
+
+.content .contact{
+    margin-left: 132px;
+}
+.contact li{
+    overflow: hidden;
+}
+.contact  li b{
+    display: block;
+    font-weight:normal;
+    font-size:18px;
+    color:#666666;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.contact  li input{
+    display: block;
+    width:302px;
+    height:40px;
+    border:1px solid #666666;
+    color:#666666;
+    padding-left: 8px;
+    text-align: left;
+    line-height: 40px;
+    margin-bottom:26px;
+}
+.contact  li .current{
+    margin-top:20px;
+}
+.contact  li textarea{
+    width:924px;
+    height: 220px;
+    border: 1px solid #666666;
+    resize:none;
+    overflow: hidden;
+    color:#666666;
+    padding-left: 8px;
+    text-align: left;
+    padding-top:8px;
+    margin-bottom:25px ;
+}
+.contact  li span{
+    display: block;
+    height: 44px;
+    float: left;
+    font-size: 18px;
+    color:#666666;
+    text-align: center;
+    line-height: 44px;
+    margin-right:20px;
+}
+.contact  li .ver_code{
+    display: block;
+    float: left;
+    width: 48px;
+    height: 40px;
+    border:1px solid #666666;
+    margin-right: 20px;
+    margin-bottom: 24px;
+}
+.contact  li i{
+    display: block;
+    float: left;
+    width: 48px;
+    height: 28px;
+    border:1px solid #666666;
+    background:url(../img/contact_us1.png) no-repeat center;
+    margin-right: 14px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+.contact  li p{
+    float:left;
+    font-weight:normal;
+    height:44px;
+    line-height: 44px;
+    font-size:14px;
+    color:#666666;
+    text-align: center;
+    cursor: pointer;
+    margin: 0;
+}
+.contact li input[type="submit"]{
+    width: 100px;
+    height: 34px;
+    border:1px solid #666666;
+    cursor: pointer;
+    float: left;
+    background: none;
+    margin-right: 18px;
+    font-size: 18px;
+    color:#666;
+    text-align: center;
+    line-height:18px;
+}
+.contact li input[type="reset"]{
+    width: 100px;
+    height: 34px;
+    border:1px solid #666666;
+    cursor: pointer;
+    float: left;
+    background: none;
+    font-size: 18px;
+    color:#666;
+    text-align: center;
+    line-height:18px;
+}
+.contact_map{
+    width: 462px;
+    height: 338px;
+    position:absolute;
+    right:132px;top:200px;
+}
+.contact_map h4{
+    font-size: 18px;
+    color:#666;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 20px;
+}
